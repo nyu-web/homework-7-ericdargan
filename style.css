@@ -1,0 +1,35 @@
+.tile {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}
+
+#board {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(200px, auto));
+  margin: auto;
+  background-color: white;
+  margin-top: 250px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+html {
+  background-color: black;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
